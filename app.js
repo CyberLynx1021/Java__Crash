@@ -1,11 +1,15 @@
-// given two numbers, return true if the sum of both 
-//  numbers is greater than 100 otherwise return false
+// create function that takes 2 strings. If 1st string is
+// equal to "LOGGED_IN" or second string = Subscribed return
+// true otherwise return false isLoggedInAndSubscribed("LOGGED_IN",SUBSCRIBED) -> true
 
-function sumGreaterThan100(num1, num2){
-    if (num1 + num2 > 100){
-    return true;
-}
-return false;
+
+
+function isLoggedInAndSubscribed(Logged_In, Subscribed){
+if (Logged_In ==="LOGGED_IN" || Subscribed === "SUBSCRIBED")
+return true
+else 
+return false
 }
 
-console.log(sumGreaterThan100(50, 52));
+console.log(isLoggedInAndSubscribed("LOGGED_IN","SUBSCRIBED" ))
+
