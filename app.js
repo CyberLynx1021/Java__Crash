@@ -5,7 +5,7 @@ function getSubscriptionStatus() {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
         resolve("undefined")
-        }, 2000);
+        }, 3000);
     })
 }
 
