@@ -1,10 +1,10 @@
-// Given a array of elements, return the same length array
-//  filled with 0's convertToZeros([5,100,0]) -->
-function convertToZeros(arr){
-    let newArr = []
-    for (let i = 0; i < arr.length;  ++i) {
-        newArr[i] = 0
- }
-   return newArr;
-}
-console.log(convertToZeros([5,100,0]))
+// Given an array of truthy and falsy values return same
+// array of elements into its boolean value.
+// converToBoolean([500,0,"David","",[])
+function converToBoolean(arr){
+arrNew = []
+// Makes every element either truth or falsy depending on value
+return arr.map(elem => !!elem)
+  }
+
+console.log(converToBoolean([500,0,0,"David","",]))
